@@ -3,9 +3,14 @@ body {
     font-family: monospace;
 }
 
-@media(max-width: 499px){
+@media(max-width: 500px){
 section#reviews {
     display: none;
 }
 }
 
+@media(min-width: 500px) {
+    section#reviews {
+        display:block;
+    }
+}
